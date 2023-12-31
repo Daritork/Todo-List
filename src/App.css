@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2vw;
+}
+li {
+  display: grid !important;
+  grid-template-columns: max-content max-content max-content auto;
+  gap: 2vw;
+  align-items: center;
+}
+.folder-li {
+  padding: 0 !important;
+  display: block !important;
+}
+.accordion-button {
+  gap: 1vw;
+}
+.accordion-body {
+  padding-left: 8% !important;
+}
+h6 {
+  margin: 0 !important;
+}
+.inputSpace {
+  display: flex;
+  gap: 1vw;
+  justify-content: space-between;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  min-width: 60%;
+}
+.extraBut {
+  justify-self: flex-end !important;
+}
+.done-task {
+  background-color: #6d6d6d5e !important;
+}
+.done-task h6 {
+  color: #6d6d6d;
+  text-decoration: line-through;
+}
+.dropdown-menu {
+  left: 2vw;
+}
+.form-control {
+  width: 50%;
+}
